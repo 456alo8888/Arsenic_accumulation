@@ -1,0 +1,78 @@
+Graph Nodes:
+Lat;Cropping.Season;Region;CO2;Humidity;PEV;Rainfall;Temp;Grain.As;Grain.Se;Grain.P;Grain.S;Grain.Mn;Grain.Fe;Grain.Cu;Straw.As;Straw.Se;Straw.Al;Straw.P;Straw.S;Straw.Mn;Straw.Fe;Straw.Cu;Soil.As;Soil.Se;Soil.Al;Soil.P;Soil.S;Soil.Mn;Soil.Fe;Soil.Cu;Soil.pH;Soil.Clay;SOM
+
+Graph Edges:
+1. CO2 --> Cropping.Season
+2. CO2 --> Grain.S
+3. CO2 --> Humidity
+4. CO2 --> Soil.As
+5. CO2 --> Soil.Cu
+6. CO2 --> Soil.P
+7. CO2 --> Straw.Al
+8. CO2 --> Straw.S
+9. Cropping.Season --> Grain.As
+10. Cropping.Season --> Soil.Se
+11. Cropping.Season --> Straw.Fe
+12. Grain.Cu --> Grain.Mn
+13. Grain.Cu --> Grain.Se
+14. Grain.S --> Grain.As
+15. Grain.S --> Grain.Mn
+16. Grain.S --> Grain.P
+17. Grain.Se --> Grain.As
+18. Humidity --> Cropping.Season
+19. Humidity --> Temp
+20. Lat --> PEV
+21. Lat --- Region
+22. Lat --> Temp
+23. Rainfall --> Humidity
+24. Rainfall --> Soil.pH
+25. Region --> PEV
+26. Region --> Straw.As
+27. Region --> Temp
+28. SOM --> Soil.Al
+29. SOM --> Soil.Clay
+30. SOM --> Soil.pH
+31. Soil.Al --> Soil.Clay
+32. Soil.As --> Soil.Cu
+33. Soil.As --> Soil.Fe
+34. Soil.As --> Soil.P
+35. Soil.As --> Straw.As
+36. Soil.Cu --> Soil.Al
+37. Soil.Cu --> Soil.P
+38. Soil.Fe --> Soil.Al
+39. Soil.Fe --> Soil.Cu
+40. Soil.Fe --> Soil.Mn
+41. Soil.Fe --> Soil.Se
+42. Soil.Mn --> Grain.Mn
+43. Soil.Mn --> Straw.Mn
+44. Soil.P --> Straw.Cu
+45. Soil.P --> Straw.P
+46. Soil.S --> Grain.P
+47. Soil.S --- SOM
+48. Soil.S --> Soil.Al
+49. Soil.Se --> Grain.As
+50. Soil.Se --> Grain.Se
+51. Soil.Se --> Soil.Al
+52. Soil.Se --> Straw.P
+53. Soil.Se --> Straw.Se
+54. Soil.pH --> Soil.Mn
+55. Soil.pH --> Straw.Al
+56. Soil.pH --> Straw.As
+57. Straw.Al --> Straw.Fe
+58. Straw.As --> Grain.As
+59. Straw.As --> Straw.Fe
+60. Straw.As --> Straw.Mn
+61. Straw.Cu --> Grain.Cu
+62. Straw.Cu --> Straw.Mn
+63. Straw.Fe --> Grain.Cu
+64. Straw.Mn --> Grain.Cu
+65. Straw.Mn --> Grain.Mn
+66. Straw.P --> Grain.P
+67. Straw.P --> Straw.Fe
+68. Straw.S --> Grain.S
+69. Straw.S --> Straw.Fe
+70. Straw.S --> Straw.P
+
+Graph Attributes:
+BIC: -80510.375623
+
